@@ -1,5 +1,12 @@
-.box {
-    width: 2px;
+.stickerbox {
+    width: auto;
     height: auto;
     border: 2px, solid, black;
+    padding: auto;
+}
+
+.boxgrid {
+    display: grid;
+    gap: 10px;
+    width: 100vw
 }
